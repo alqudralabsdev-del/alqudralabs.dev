@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/ALqudraLabs.dev.html" },
+    { "source": "/index.html", "destination": "/ALqudraLabs.dev.html" },
+    { "source": "/alqudralabs.dev.html", "destination": "/ALqudraLabs.dev.html" }
+  ]
+}
