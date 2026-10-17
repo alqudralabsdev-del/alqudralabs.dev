@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learning notes and beginner-friendly web development tips from Al Qudra Labs.Dev.">
+    <title>Blog | Al Qudra Labs.Dev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="script.js"></script>
+<body>
+    <!-- navbar -->
+    <nav class="nav-bar">
+        <div class="logo">
+            <img class="logo-img" src="./al qudra logo.jpg" alt="AlqudraLabs.Dev Logo">
+            <span>Al Qudra Labs.Dev</span>
+        </div>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+        <div class="nav-links" id="nav-links">
+            <a href="alqudralabs.dev.html">Home</a>
+            <a href="services.html" >Services</a>
+            <a href="about.html" >About</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+        </div>
+    </nav>
+    <article class="post">
+        <a class="back-link" href="blog.html">← Back to all posts</a>
+        <span class="post-tag">Story</span>
+        <h1>What I Learned Debugging My First Website</h1>
+        <p class="post-meta">By Khizra Fatima · October 2026 · 3 min read</p>
+
+        <p>When I started building websites, every error message felt like a personal attack. A missing bracket, a broken image, a button that did nothing, and suddenly I was convinced I wasn't cut out for this.</p>
+
+        <h2>1. Read the error slowly</h2>
+        <p>Most errors tell you exactly what is wrong and where. I learned to stop panicking and read the message line by line before touching anything.</p>
+
+        <h2>2. Check the small things first</h2>
+        <p>An unclosed tag, a typo in a file name, or a missing semicolon caused far more problems than any complicated logic. Start with the simple explanations.</p>
+
+        <h2>3. Use the browser's developer tools</h2>
+        <p>Pressing F12 changed everything for me. You can see which files failed to load, which CSS rules are applied, and test changes live.</p>
+
+        <h2>4. Mistakes are the lesson</h2>
+        <p>Every bug I fixed taught me something I now remember. Skill is built one mistake at a time, so if you're stuck today, you're learning.</p>
+
+        <p>If you're just starting out, keep going. In sha Allah, it gets easier.</p>
+    </article>
+
+<!--footer-->
+        <footer>
+    <div class="logo">
+        <img src="./al qudra logo.jpg" alt="Al Qudra Labs logo">
+        <div class="message">
+            <p>© 2026 Al Qudra Labs.Dev. All rights reserved.</p>
+        </div>
+        <div class="links">
+            <a href="alqudralabs.dev.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="services.html">Services</a>
+            <a href="blog.html" class="active">Blog</a>
+        </div>
+
+        <div class="social-media">
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/alqudralabs.dev" target="_blank" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                </svg>
+            </a>
+
+            <!-- Email -->
+            <a href="mailto:alqudralabs.dev@gmail.com" aria-label="Email">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                    <polyline points="22,6 12,13 2,6"/>
+                </svg>
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/alqudralabsdev-del" target="_blank" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</footer>
+
+    <button id="back-to-top" aria-label="Back to top">↑</button>
+    <script src="script.js"></script>
+</body>
+</html>
