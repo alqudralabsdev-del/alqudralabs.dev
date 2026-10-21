@@ -13,11 +13,11 @@
         }
 
         var savedTheme = null;
-        try { savedTheme = localStorage.getItem('theme'); } catch (err) {}
-        if (savedTheme !== 'dark' && savedTheme !== 'light') {
-            savedTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-        }
-        applyTheme(savedTheme);
+try { savedTheme = localStorage.getItem('theme'); } catch (err) {}
+if (savedTheme !== 'dark') {
+    savedTheme = 'light';
+}
+applyTheme(savedTheme);
 
         /* ---------- Clicks: theme toggle + hamburger ---------- */
         document.addEventListener('click', function (e) {
